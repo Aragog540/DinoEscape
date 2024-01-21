@@ -9,5 +9,3 @@ Technical Highlights:
 🌐 HTML: The game structure is built using HTML to create the foundation for seamless gameplay.
 🎨 CSS: I leveraged CSS for styling, ensuring an engaging and visually appealing gaming experience.
 🚀 JavaScript: The core functionality and interactivity of the game are powered by JavaScript, enhancing user engagement and responsiveness.
-
-Check out the project on my LinkedIn to see how these skills were applied to create an exciting and challenging gaming experience! 🚀🎮 "
