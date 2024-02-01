@@ -1,37 +1,3 @@
-let score =0;
-cross = true;
-
-audio1 = new Audio('track.mp3')
-audiogo = new Audio('finish.mp3.wav')
-audioju = new Audio('jump.mp3.wav')
-setTimeout(()=> {
-    audio1.play()
-},1000);
-document.onkeydown = function(e){
-    console.log("Key code is: ", e.keyCode);
-    let jetha = document.querySelector('.jetha');
-
-    if(e.keyCode === 38){
-        setTimeout(()=> {
-            audioju.play()
-        },100);
-        jetha.classList.add('animateJetha');
-        setTimeout(() => {
-            jetha.classList.remove('animateJetha');
-        }, 1000);
-    }
-
-    if(e.keyCode === 39){
-        jethaX = parseInt(window.getComputedStyle(jetha, null).getPropertyValue('left'));
-        jetha.style.left = jethaX + 112 + "px";
-    }
-
-    if(e.keyCode === 37){
-        jethaX = parseInt(window.getComputedStyle(jetha, null).getPropertyValue('left'));
-        jetha.style.left = (jethaX - 112) + "px";
-    }
-}
-
 setInterval(() => {
     let jetha = document.querySelector('.jetha');
     let gameOver = document.querySelector('.gameOver');
